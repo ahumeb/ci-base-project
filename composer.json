@@ -1,0 +1,21 @@
+{
+	"description": "The CodeIgniter framework",
+	"name": "codeigniter/framework",
+	"type": "project",
+	"homepage": "https://codeigniter.com",
+	"license": "MIT",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+		"slack": "https://codeigniterchat.slack.com",
+		"source": "https://github.com/bcit-ci/CodeIgniter"
+	},
+	"require": {
+		"php": ">=7.4",
+		"kreait/firebase-php": "5.*",
+	  	"google/cloud-firestore": "v1.19.4"
+	},
+	"config": {
+	  "vendor-dir": "./application/vendor"
+	}
+}
